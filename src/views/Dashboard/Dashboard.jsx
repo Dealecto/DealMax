@@ -87,7 +87,7 @@ class Dashboard extends React.Component {
               <CardBody>
                 <Table
                   tableHeaderColor="warning"
-                  tableHead={["ID", "Deal", "Location"]}
+                  tableHead={["ID", "Deal", "City"]}
                   tableData={[
                     ["1", "2 by 1 Sangria", "Aventura"],
                     ["2", "Happy Hour: Half Price Tequilas", "Brickell"],
