@@ -46,7 +46,7 @@ function TableList(props) {
       <GridItem xs={12} sm={12} md={12}>
         <Card>
           <CardHeader color="primary">
-            <h4 className={classes.cardTitleWhite}>Deal List</h4>
+            <h4 className={classes.cardTitleWhite}>Active Deal List</h4>
             <p className={classes.cardCategoryWhite}>
               All your deals in one place
             </p>
@@ -54,7 +54,7 @@ function TableList(props) {
           <CardBody>
             <Table
               tableHeaderColor="primary"
-              tableHead={["Deal", "Address", "City","Zip", "Expiration"]}
+              tableHead={["Deal", "Address", "City","Zip", "Start Date","Expiration"]}
               tableData={[
                 // this will need to be populated from mlab. 
                 ["2 for 1 Sangria", "123 Street", "Aventura","33180", "07/30/2018"],
