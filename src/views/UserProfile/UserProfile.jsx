@@ -100,8 +100,8 @@ function UserProfile(props) {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                   <CustomInput
-                    labelText="Country"
-                    id="country"
+                    labelText="Neighborhood"
+                    id="neighborhood"
                     formControlProps={{
                       fullWidth: true
                     }}
