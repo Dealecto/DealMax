@@ -52,7 +52,7 @@ class HeaderLinks extends React.Component {
           <Search />
         </Button>
       </div>
-        <Button
+        {/* <Button
           color={window.innerWidth > 959 ? "transparent" : "white"}
           justIcon={window.innerWidth > 959}
           simple={!(window.innerWidth > 959)}
@@ -63,8 +63,8 @@ class HeaderLinks extends React.Component {
           <Hidden mdUp>
             <p className={classes.linkText}>Dashboard</p>
           </Hidden>
-        </Button>
-        <Manager className={classes.manager}>
+        </Button> */}
+        {/* <Manager className={classes.manager}>
           <Target>
             <Button
               color={window.innerWidth > 959 ? "transparent" : "white"}
@@ -106,39 +106,16 @@ class HeaderLinks extends React.Component {
                       onClick={this.handleClose}
                       className={classes.dropdownItem}
                     >
-                      Mike John responded to your email
+                      currently this is hardcoded in headerlinks
                     </MenuItem>
-                    <MenuItem
-                      onClick={this.handleClose}
-                      className={classes.dropdownItem}
-                    >
-                      You have 5 new tasks
-                    </MenuItem>
-                    <MenuItem
-                      onClick={this.handleClose}
-                      className={classes.dropdownItem}
-                    >
-                      You're now friend with Andrew
-                    </MenuItem>
-                    <MenuItem
-                      onClick={this.handleClose}
-                      className={classes.dropdownItem}
-                    >
-                      Another Notification
-                    </MenuItem>
-                    <MenuItem
-                      onClick={this.handleClose}
-                      className={classes.dropdownItem}
-                    >
-                      Another One
-                    </MenuItem>
+                    
                   </MenuList>
                 </Paper>
               </Grow>
             </ClickAwayListener>
           </Popper>
-        </Manager>
-        <Button
+        </Manager> */}
+        {/* <Button
           color={window.innerWidth > 959 ? "transparent" : "white"}
           justIcon={window.innerWidth > 959}
           simple={!(window.innerWidth > 959)}
@@ -149,7 +126,7 @@ class HeaderLinks extends React.Component {
           <Hidden mdUp>
             <p className={classes.linkText}>Profile</p>
           </Hidden>
-        </Button>
+        </Button> */}
       </div>
     );
   }
