@@ -11,7 +11,7 @@ const styles = theme => ({
   textField: {
     marginLeft: theme.spacing.unit,
     marginRight: theme.spacing.unit,
-    width: 200,
+    width: 400,
   },
 });
 
@@ -21,10 +21,20 @@ function DatePickers(props) {
   return (
     <form className={classes.container} noValidate>
       <TextField
-        id="expiration"
+        id="beginningDate"
+        label="Beginning Date"
+        type="date"
+        defaultValue="2018-07-12"
+        className={classes.textField}
+        InputLabelProps={{
+          shrink: true,
+        }}
+      />
+      <TextField
+        id="expirationDate"
         label="Expiration"
         type="date"
-        defaultValue="2017-05-24"
+        defaultValue="2018-07-12"
         className={classes.textField}
         InputLabelProps={{
           shrink: true,
